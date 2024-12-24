@@ -151,7 +151,6 @@
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ĐĂNG NHẬP";
-            this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.grpDangNhap.ResumeLayout(false);
             this.grpDangNhap.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUser)).EndInit();

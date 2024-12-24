@@ -30,7 +30,6 @@
         {
             this.dgvDiem = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cboTrangThai = new System.Windows.Forms.ComboBox();
             this.cboMonHoc = new System.Windows.Forms.ComboBox();
             this.lblMonHoc = new System.Windows.Forms.Label();
             this.lblTenHocSinh = new System.Windows.Forms.Label();
@@ -73,7 +72,6 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.cboTrangThai);
             this.panel2.Controls.Add(this.cboMonHoc);
             this.panel2.Controls.Add(this.lblMonHoc);
             this.panel2.Controls.Add(this.lblTenHocSinh);
@@ -98,18 +96,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1370, 165);
             this.panel2.TabIndex = 30;
-            // 
-            // cboTrangThai
-            // 
-            this.cboTrangThai.FormattingEnabled = true;
-            this.cboTrangThai.Items.AddRange(new object[] {
-            "Đạt",
-            "Chưa đạt"});
-            this.cboTrangThai.Location = new System.Drawing.Point(123, 123);
-            this.cboTrangThai.Name = "cboTrangThai";
-            this.cboTrangThai.Size = new System.Drawing.Size(121, 21);
-            this.cboTrangThai.TabIndex = 52;
-            this.cboTrangThai.Visible = false;
             // 
             // cboMonHoc
             // 
@@ -384,6 +370,5 @@
         private System.Windows.Forms.Label lblMonHoc;
         private System.Windows.Forms.ComboBox cboNienKhoa;
         private System.Windows.Forms.Label lblNienKhoa;
-        private System.Windows.Forms.ComboBox cboTrangThai;
     }
 }

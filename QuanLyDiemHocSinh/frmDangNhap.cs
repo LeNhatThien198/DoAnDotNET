@@ -72,9 +72,5 @@ namespace QuanLyDiemHocSinh
             Application.Exit(); // Thoát chương trình
         }
 
-        private void frmDangNhap_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

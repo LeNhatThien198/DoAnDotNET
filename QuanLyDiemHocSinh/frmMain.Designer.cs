@@ -45,11 +45,11 @@
             this.mnuQLHocSinh = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuQLGiaoVien = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThongKe = new System.Windows.Forms.ToolStripDropDownButton();
-            this.mnuKQHocKy = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuKQMHHK = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuKQMonHoc = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuKQHKMH = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuKQCNMH = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuKQChung = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuKQHKChung = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuKQCaNam = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuKQCNMonHoc = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuKQCNChung = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuCaiDat = new System.Windows.Forms.ToolStripDropDownButton();
             this.mnuQLNguoiDung = new System.Windows.Forms.ToolStripMenuItem();
@@ -187,55 +187,55 @@
             // 
             this.mnuThongKe.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.mnuThongKe.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuKQHocKy,
-            this.mnuKQCaNam});
+            this.mnuKQMonHoc,
+            this.mnuKQChung});
             this.mnuThongKe.Image = ((System.Drawing.Image)(resources.GetObject("mnuThongKe.Image")));
             this.mnuThongKe.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.mnuThongKe.Name = "mnuThongKe";
             this.mnuThongKe.Size = new System.Drawing.Size(69, 22);
             this.mnuThongKe.Text = "&Thống kê";
             // 
-            // mnuKQHocKy
+            // mnuKQMonHoc
             // 
-            this.mnuKQHocKy.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuKQMHHK,
-            this.mnuKQHKChung});
-            this.mnuKQHocKy.Name = "mnuKQHocKy";
-            this.mnuKQHocKy.Size = new System.Drawing.Size(180, 22);
-            this.mnuKQHocKy.Text = "&Kết quả môn học";
+            this.mnuKQMonHoc.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuKQHKMH,
+            this.mnuKQCNMH});
+            this.mnuKQMonHoc.Name = "mnuKQMonHoc";
+            this.mnuKQMonHoc.Size = new System.Drawing.Size(180, 22);
+            this.mnuKQMonHoc.Text = "&Kết quả môn học";
             // 
-            // mnuKQMHHK
+            // mnuKQHKMH
             // 
-            this.mnuKQMHHK.Name = "mnuKQMHHK";
-            this.mnuKQMHHK.Size = new System.Drawing.Size(180, 22);
-            this.mnuKQMHHK.Text = "&Học kỳ";
-            this.mnuKQMHHK.Click += new System.EventHandler(this.menuItem_Click);
+            this.mnuKQHKMH.Name = "mnuKQHKMH";
+            this.mnuKQHKMH.Size = new System.Drawing.Size(180, 22);
+            this.mnuKQHKMH.Text = "&Học kỳ";
+            this.mnuKQHKMH.Click += new System.EventHandler(this.menuItem_Click);
+            // 
+            // mnuKQCNMH
+            // 
+            this.mnuKQCNMH.Name = "mnuKQCNMH";
+            this.mnuKQCNMH.Size = new System.Drawing.Size(180, 22);
+            this.mnuKQCNMH.Text = "&Cả năm";
+            // 
+            // mnuKQChung
+            // 
+            this.mnuKQChung.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuKQHKChung,
+            this.mnuKQCNChung});
+            this.mnuKQChung.Name = "mnuKQChung";
+            this.mnuKQChung.Size = new System.Drawing.Size(180, 22);
+            this.mnuKQChung.Text = "&Kết quả chung";
             // 
             // mnuKQHKChung
             // 
             this.mnuKQHKChung.Name = "mnuKQHKChung";
             this.mnuKQHKChung.Size = new System.Drawing.Size(180, 22);
-            this.mnuKQHKChung.Text = "&Cả năm";
-            // 
-            // mnuKQCaNam
-            // 
-            this.mnuKQCaNam.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuKQCNMonHoc,
-            this.mnuKQCNChung});
-            this.mnuKQCaNam.Name = "mnuKQCaNam";
-            this.mnuKQCaNam.Size = new System.Drawing.Size(180, 22);
-            this.mnuKQCaNam.Text = "&Kết quả chung";
-            // 
-            // mnuKQCNMonHoc
-            // 
-            this.mnuKQCNMonHoc.Name = "mnuKQCNMonHoc";
-            this.mnuKQCNMonHoc.Size = new System.Drawing.Size(115, 22);
-            this.mnuKQCNMonHoc.Text = "&Học kỳ";
+            this.mnuKQHKChung.Text = "&Học kỳ";
             // 
             // mnuKQCNChung
             // 
             this.mnuKQCNChung.Name = "mnuKQCNChung";
-            this.mnuKQCNChung.Size = new System.Drawing.Size(115, 22);
+            this.mnuKQCNChung.Size = new System.Drawing.Size(180, 22);
             this.mnuKQCNChung.Text = "&Cả năm";
             // 
             // mnuCaiDat
@@ -254,7 +254,7 @@
             // mnuQLNguoiDung
             // 
             this.mnuQLNguoiDung.Name = "mnuQLNguoiDung";
-            this.mnuQLNguoiDung.Size = new System.Drawing.Size(146, 22);
+            this.mnuQLNguoiDung.Size = new System.Drawing.Size(180, 22);
             this.mnuQLNguoiDung.Text = "&Người dùng";
             this.mnuQLNguoiDung.Click += new System.EventHandler(this.menuItem_Click);
             // 
@@ -262,7 +262,7 @@
             // 
             this.mnuThoat.Name = "mnuThoat";
             this.mnuThoat.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.mnuThoat.Size = new System.Drawing.Size(146, 22);
+            this.mnuThoat.Size = new System.Drawing.Size(180, 22);
             this.mnuThoat.Text = "&Thoát";
             this.mnuThoat.Click += new System.EventHandler(this.mnuThoat_Click);
             // 
@@ -368,11 +368,11 @@
         private System.Windows.Forms.ToolStripMenuItem mnuQLHocSinh;
         private System.Windows.Forms.ToolStripMenuItem mnuQLGiaoVien;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripMenuItem mnuKQHocKy;
-        private System.Windows.Forms.ToolStripMenuItem mnuKQMHHK;
+        private System.Windows.Forms.ToolStripMenuItem mnuKQMonHoc;
+        private System.Windows.Forms.ToolStripMenuItem mnuKQHKMH;
+        private System.Windows.Forms.ToolStripMenuItem mnuKQCNMH;
+        private System.Windows.Forms.ToolStripMenuItem mnuKQChung;
         private System.Windows.Forms.ToolStripMenuItem mnuKQHKChung;
-        private System.Windows.Forms.ToolStripMenuItem mnuKQCaNam;
-        private System.Windows.Forms.ToolStripMenuItem mnuKQCNMonHoc;
         private System.Windows.Forms.ToolStripMenuItem mnuKQCNChung;
         private System.Windows.Forms.ToolStripMenuItem mnuQLLopHoc;
         private System.Windows.Forms.ToolStripDropDownButton mnuCaiDat;
